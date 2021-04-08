@@ -1,16 +1,74 @@
-#logo img{
-    max-width:200px;
-    max-height:150px;
+.respiro-lateral {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo img {
+    max-width: 175px;
+    max-height: 125px;
     width: auto;
     height: auto;
 }
-h1 {
-    text-align: center;
-    margin-top: -100px;
 
+footer {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.rodape{
+.layout-grid {
     display: grid;
-    justify-content: end;
+}
+
+.grid-template-areas {
+    grid-template-areas:
+    "logo-area nav-area";
+    grid-template-columns: 10% 90%;
+}
+
+.logo-area {
+    grid-area: logo-area;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 2;
+    position: absolute;
+}
+
+.nav-area {
+    grid-area: nav-area;
+}
+
+header {
+    background-color: #F9EAB7;
+    min-height: 70px;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, Open Sans, sans-serif;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #353839;
+    text-align: center;
+    font-size: small;
+    margin-right: 40px;
+}
+
+.btn:hover {
+    border-bottom: 2px solid #004C8A;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
 }
