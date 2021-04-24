@@ -95,6 +95,11 @@ main .botao-principal {
     text-decoration: none;
 }
 
+main .botao-principal:hover {
+    color:#004C8A;
+    background-color: #FFFFFF;
+}
+
 main h1 {
     font-size: 3em;
     color: #FFFFFF;
@@ -146,8 +151,11 @@ footer h1 {
 }
 
 #iconesredessociaois{
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
     font-size: 3em;
+
 
 }
 
@@ -200,12 +208,12 @@ footer a:hover {
 
 footer .lowerfooter {
     font-size: small;
-    color: #ffffff86;
+    color: #004C8A ;
     justify-self: stretch;
     text-align: center;
     font-weight: bold;
     padding: 2.5px;
-    background-color: #004C8A ;
+    background-color: #ffffffff;
 }
 
 /* ------------------------------ */
