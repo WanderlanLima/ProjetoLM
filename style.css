@@ -109,7 +109,32 @@ main p {
 
 /* Footer */
 
+
+footer .upperfooter {
+    border: 50px;
+    border-color: #FFFFFF;
+    padding: 15px;
+    
+}
+
+#mapa {
+    border: 50px;
+    border-color: #004C8A;
+    margin: 5px;
+
+}
+
 footer {
-    display: flex;
-    justify-content: flex-end;
+    margin-top: 5rem;
+    background-color: #043663;
+    justify-content: center;
+}
+
+
+footer .lowerfooter {
+    justify-content: stretch;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #004C8A ;
 }
