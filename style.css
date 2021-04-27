@@ -79,8 +79,9 @@ main {
     align-items:center;
     text-align: center;
     height: 100vh;
-    background-image: url(../projetoLM/img/residentescdm.png);
+    background-image: url(../projetoLM/img/fotosidosasEDITADO.jpg);
     background-size: cover;
+    
 }
 
 
@@ -155,13 +156,14 @@ main .botao-principal:hover {
 
 main h1 {
     font-size: 3em;
-    color: #FFFFFF;
+    color: #004C8A;
     font-weight: bold;
+
 }
 
 main p {
     font-size: 2em;
-    color: #FFFFFF;
+    color: #004C8A;
     font-weight: bold;
 }
 
