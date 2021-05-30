@@ -280,7 +280,7 @@ footer .lowerfooter {
 
 
 
-/*PAGINA DE DOACAO*/
+                                        /************* PÁGINA DE DOAÇAO ***********/
 
 
 .main-doacao {
@@ -330,6 +330,16 @@ cursor: default;
 }
 
                /** TABELA **/
+
+
+
+                                        /************* PÁGINA DE CONTATO ***********/
+
+
+.formulario {
+    padding: 150px;
+    background-color: #f7f7f7;
+}
 
 
 
