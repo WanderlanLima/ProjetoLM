@@ -103,6 +103,11 @@ main .botao-principal:hover {
     background-color: #FFFFFF;
 }
 
+main .botao-principal:active {
+    color:#FFFFFF;
+    background-color: #004C8A;
+}
+
 .secao-quemsomos {
     font-size: 1.4em;
     display: grid;
@@ -323,10 +328,10 @@ footer .lowerfooter {
 }
 
 .main-doacao table td:hover {
-border-radius: 20px;
-color: #004C8A;
-background-color: #FFFFFF;
-cursor: default;
+    border-radius: 20px;
+    color: #004C8A;
+    background-color: #FFFFFF;
+    cursor: default;
 }
 
                /** TABELA **/
@@ -337,9 +342,86 @@ cursor: default;
 
 
 .formulario {
-    padding: 150px;
+    margin-top: 5%;
+    display: grid;
+    padding: 4em;
+    padding-bottom: 1.2em;
     background-color: #f7f7f7;
+}   
+
+main form select, input[type=email], input[type=text] {
+    margin-top: 0.8%;
+    align-self: center;
+    width: 60%;
+    padding:2px; 
+    border:2px solid #ccc; 
+    border-radius: 5px;
+    outline: none;
 }
 
+.formulario label{
+    font-size: 1.2em;
+    margin: 5%;
+    border-radius: 50px;
+    color: #004C8A;
+    margin-top: 0.8%;
+}
+
+main form textarea{
+    margin-top: 10px;
+    padding:2px; 
+    border:2px solid #ccc; 
+    border-radius: 5px;
+    outline: none;
+
+}
+
+main form input[type=submit] {
+    margin-top: 8px;
+    font-size: 1em;
+    color: #FFFFFF;
+    background-color: #004C8A;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    border: 10px solid #004C8A;
+    cursor: pointer;
+}
+
+main form input[type=submit]:hover{
+    padding: 9px 15px 9px 15px;
+    color: #004C8A;
+    background-color: #FFFFFF;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    border: solid 2px #004C8A;
+    transition: all 0.25 ease;
+
+}
+
+main form input[type=submit]:active {
+    padding: 9px 15px 9px 15px;
+    color: #FFFFFF;
+    background-color: #004C8A;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    border: 2px solid #004C8A;
+    transition: all 0.5 ease;
+}
+
+#contatenos {
+    font-weight: bolder;
+    font-size: 1.3em;
+    justify-content:right;
+    color: #FFFFFF;
+    background-color: #004C8A;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    border: 10px solid #004C8A;
+    margin-bottom: 2em;
+}
+
+.formulario input:focus, select:focus, textarea:focus {
+    border-color:#004C8A;
+}
 
 
