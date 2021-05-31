@@ -31,15 +31,16 @@
             </div>
         </nav>
     </header>
-
+    <main>
         <section class="formulario">
-         <form action="server/userinfo.php"> <!-- Este valor no parâmetro Action é para apenas exemplificar o envio das informações em um cenário fictício-->
+            <span id="contatenos">Mande-nos uma mensagem!</span>
+            <form action="server/userinfo.php"> <!-- Este valor no parâmetro Action é para apenas exemplificar o envio das informações em um cenário fictício-->
             
-            <label for="email">Digite seu email:</label> <br>
-            <input type="email" name="email" placeholder="user@email.com" id="email" required> <br> <br>
-            <label for="nome">Digite seu nome: </label> <br>
-            <input type="text" name="nomeuser" placeholder="Nome..." id="nome" required> <br> <br>
-            <label for="faixaetaria">Diga a qual faixa etária você pertence:</label> <br>
+                <label for="email">Digite seu email:</label> <br>
+                <input type="email" name="email" placeholder="user@email.com" id="email" required> <br> <br>
+                <label for="nome">Digite seu nome: </label> <br>
+                <input type="text" name="nomeuser" placeholder="Nome..." id="nome" required> <br> <br>
+                <label for="faixaetaria">Diga a qual faixa etária você pertence:</label> <br>
             <select name="faixaetaria" id="faixaetaria" required>
                 <option value=""></option>
                 <option value="menor18">Menor de 18 anos.</option>
@@ -49,27 +50,27 @@
                 <option value="mais60">Mais de 60 anos.</option>
             </select> <br> <br>
 
-            <label for="contribuinte">Você já contribuiu de alguma forma para a Casa?</label> <br>
+                <label for="contribuinte">Você já contribuiu de alguma forma?</label> <br>
             <select name="contribuiçao" id="contribuinte" required>
                 <option value=""></option>
                 <option value="sim">Sim, contribuí!</option>
                 <option value="nao">Não contribuí.</option>
             </select> <br> <br>
 
-            <label for="visita">Você já visitou a Casa da Divina Misericordia?</label> <br>
+                <label for="visita">Você já nos visitou?</label> <br>
             <select name="vist" id="visita" required>
                 <option value=""></option>
                 <option value="sim">Sim, visitei!</option>
                 <option value="nao">Não visitei.</option>
             </select> <br> <br>
 
-            <label for="mensagem">Escreva abaixo a sua mensagem:</label> <br>
-            <textarea name="mensagem" id="mensagem" rows="10" cols="50" placeholder="Escreva aqui sua mensagem..." required></textarea> <br>
-            <input type="submit" value="Enviar">
+                <label for="mensagem" id="mensagemlabel" style="font-weight: bold;">Escreva abaixo a sua mensagem:</label> <br>
+                <textarea name="mensagem" id="mensagem" rows="10" cols="50" placeholder="Escreva aqui sua mensagem..." required></textarea> <br> 
+                <input type="submit" value="Enviar mensagem!">
          </form>
 
         </section>
-
+    </main>
 </body>
 
 <footer id="contato">
@@ -105,10 +106,8 @@
 
     </section>       
 <div class="lowerfooter">
-       <p>Casa da Divina Misericordia. Desde 1999.</p>
-
+    <p>Casa da Divina Misericordia. Desde 1999.</p>
 </div>
 </footer>
-</body>
 
 </html>
